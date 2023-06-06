@@ -1,0 +1,24 @@
+.container-counter {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  height: 86px;
+  background-color: var(--Very-Light-Gray);
+  padding: 0 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.container-counter p {
+  font-size: 1.8rem;
+  color: var(--Dark-Grayish-Blue);
+  cursor: pointer;
+}
+
+.container-counter-dark {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+}

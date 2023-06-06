@@ -1,0 +1,32 @@
+.form-container {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.form-button-container {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--Bright-Blue);
+  font-size: 1.8rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--Very-Light-Gray);
+  cursor: pointer;
+}
+
+.button-cancel {
+  background-color: var(--Very-Light-Gray);
+  color: var(--Bright-Blue);
+}

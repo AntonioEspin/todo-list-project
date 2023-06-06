@@ -1,0 +1,46 @@
+.todo-item {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding: 30px 20px;
+  font-size: 1.8rem;
+  color: var(--Very-Dark-Grayish-Blue);
+  border-bottom: 1px solid var(--Light-Grayish-Blue);
+}
+
+.container-check {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--Light-Grayish-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.todo-item p {
+  padding: 0px 10px 0px 20px;
+}
+
+/* estilos que dependen de la acción */
+
+.check-completed {
+  background: var(--Check-Background);
+}
+
+.phrase-completed {
+  text-decoration: line-through;
+  color: var(--Light-Grayish-Blue);
+}
+
+/* modo oscuro */
+.todo-item-dark {
+  color: var(--Light-Grayish-Blue);
+}
+
+.phrase-completed-dark {
+  color: var(--Very-Dark-Grayish-Blue);
+}
+/* ---------- */

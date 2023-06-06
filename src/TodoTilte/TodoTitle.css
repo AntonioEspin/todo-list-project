@@ -1,0 +1,24 @@
+.header__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.header__title h1 {
+  font-size: 3rem;
+  color: var(--Very-Light-Gray);
+  letter-spacing: 10px;
+}
+
+.header__title img {
+  cursor: pointer;
+}
+
+/* modo oscuro */
+.imageModeDark {
+  content: url('../../public/images/icon-sun.svg');
+}
+/* ---------- */
